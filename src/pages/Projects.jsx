@@ -75,7 +75,7 @@ const Projects = () => {
               </a>{" "}
               {"  "}|{" "}
               <a
-                href="https://colinemyers.netlify.app/"
+                href="https://colin-myers.netlify.app/"
                 rel="noreferrer"
                 target="_blank"
               >
