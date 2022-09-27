@@ -49,7 +49,6 @@ const Projects = () => {
             </ProjectParagraphContainer>
           </ProjectCards>
           
-         
           
         </ProjectWrapper>
       </ProjectsContainerStyled>
