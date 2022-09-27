@@ -48,6 +48,41 @@ const Projects = () => {
               </a>
             </ProjectParagraphContainer>
           </ProjectCards>
+
+
+          <ProjectCards>
+            <ProjectH3>Colin Myers Portfolio</ProjectH3>
+            <ProjectParagraphContainer>
+              <ProjectP>
+                This Project is my personal portfolio. I used React and Css to make a clean and simple UI
+              </ProjectP>
+              <br />
+              <ul>
+                <strong>Technology used</strong>
+                <li>React</li>
+                <li>CSS3</li>
+                <li>Styled Components</li>
+                <li>React Icons</li>
+                
+              </ul>
+              <br />
+              <a
+                href="https://github.com/colinmyers37/colin-myers-portfolio"
+                rel="noreferrer"
+                target="_blank"
+              >
+                GitHub
+              </a>{" "}
+              {"  "}|{" "}
+              <a
+                href="https://colinemyers.netlify.app/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+            </ProjectParagraphContainer>
+          </ProjectCards>
           
           
         </ProjectWrapper>
