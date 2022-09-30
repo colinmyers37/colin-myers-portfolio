@@ -13,7 +13,7 @@ const Home = () => {
             <HomeH3>Hi, I am</HomeH3>
             <HomeH1>Colin Myers</HomeH1>
             <HomeP >
-            A Full-Stack Web Developer from Dallas, Texas. I love learning about new technology and building tools that are simple, user-friendly, and clean.
+            A Full-Stack Web Developer from Dallas, Texas. I love learning about new technology and building tools that are simple, clean, and user-friendly.
             </HomeP>
             </HomeContent>
         </HomeContainerStyled>
