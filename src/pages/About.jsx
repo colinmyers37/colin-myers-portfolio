@@ -32,8 +32,8 @@ const About = () => {
           </AboutContentContainer>
           <LanguagueNameH2>My Stack</LanguagueNameH2>
           <LanguageP>
-            CSS3 | HTM5 | Git | JavaScript | PostgreSQL | Node | ReactJS | Redux
-            | Express | MongoDb | Java | Bootstrap 
+            CSS3 | HTML5 | Git | JavaScript | PostgreSQL | Node | ReactJS |
+            Redux | Express | MongoDb | Java | Bootstrap | Jest
           </LanguageP>
           <LanguageImageWrapper>
             <LanguageIcon>
@@ -58,7 +58,6 @@ const About = () => {
             <LanguageIcon>
               <LanguageImage src={LanguagesImage.reduxLogo} alt={"css3"} />
             </LanguageIcon>
-
           </LanguageImageWrapper>
         </AboutWrapper>
       </AboutContainerStyled>
