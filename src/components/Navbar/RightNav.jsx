@@ -5,7 +5,7 @@ const RightNav = ({ isOpen, toggle }) => {
   function resumeClick() {
     console.log("resume click is working");
     window.open(
-      "https://drive.google.com/file/d/1FrP4DiOmaHS3ilr4thIvGdNwOOTh6Ea0/view?usp=sharing",
+      "https://docs.google.com/document/d/1URt_Uka22NHaGJmHA9aXTXJSTNkiFajLU2DZ769UWnY/edit?usp=sharing",
       "_blank"
     );
   }
