@@ -97,12 +97,9 @@ const Projects = () => {
                 <strong>Technology used</strong>
                 <li>React</li>
                 <li>Bootstrap</li>
-                <li>Axios</li>
                 <li>Node</li>
                 <li>Bcrypt</li>
-                <li>jwt</li>
                 <li>PostgreSQL</li>
-                <li>sequilize orm</li>
               </ul>
               <br />
               <a
