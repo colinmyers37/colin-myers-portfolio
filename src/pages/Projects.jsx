@@ -1,5 +1,5 @@
-import React from "react";
-import "../App.css";
+import React from 'react';
+import '../App.css';
 import {
   ProjectH1,
   ProjectH3,
@@ -8,7 +8,7 @@ import {
   ProjectsContainerStyled,
   ProjectWrapper,
   ProjectCards,
-} from "../styles/Container";
+} from '../styles/Container';
 
 const Projects = () => {
   return (
@@ -20,7 +20,9 @@ const Projects = () => {
             <ProjectH3>Golfcourse Handicap Calculator</ProjectH3>
             <ProjectParagraphContainer>
               <ProjectP>
-                This project is my foundations capstone from dev mountain. You are able to input your golf scores from a round and get the handicap of that round.
+                This project is my foundations capstone from dev mountain. You
+                are able to input your golf scores from a round and get the
+                handicap of that round.
               </ProjectP>
               <br />
               <ul>
@@ -37,8 +39,8 @@ const Projects = () => {
                 target="_blank"
               >
                 GitHub
-              </a>{" "}
-              {"  "}|{" "}
+              </a>{' '}
+              {'  '}|{' '}
               <a
                 href="https://golfcourse-calc.herokuapp.com/"
                 rel="noreferrer"
@@ -49,12 +51,12 @@ const Projects = () => {
             </ProjectParagraphContainer>
           </ProjectCards>
 
-
           <ProjectCards>
             <ProjectH3>Colin Myers Portfolio</ProjectH3>
             <ProjectParagraphContainer>
               <ProjectP>
-                This Project is my personal portfolio. I used React and Css to make a clean and simple UI
+                This Project is my personal portfolio. I used React and Css to
+                make a clean and simple UI
               </ProjectP>
               <br />
               <ul>
@@ -63,7 +65,6 @@ const Projects = () => {
                 <li>CSS3</li>
                 <li>Styled Components</li>
                 <li>React Icons</li>
-                
               </ul>
               <br />
               <a
@@ -72,8 +73,8 @@ const Projects = () => {
                 target="_blank"
               >
                 GitHub
-              </a>{" "}
-              {"  "}|{" "}
+              </a>{' '}
+              {'  '}|{' '}
               <a
                 href="https://colin-myers.netlify.app/"
                 rel="noreferrer"
@@ -83,8 +84,37 @@ const Projects = () => {
               </a>
             </ProjectParagraphContainer>
           </ProjectCards>
-          
-          
+
+          <ProjectCards>
+            <ProjectH3>CJJF Class Tracker</ProjectH3>
+            <ProjectParagraphContainer>
+              <ProjectP>
+                This is a jiu jitsu technique tracker that I made to help
+                remember what the techniques I've learned in jiu jitsu.
+              </ProjectP>
+              <br />
+              <ul>
+                <strong>Technology used</strong>
+                <li>React</li>
+                <li>Bootstrap</li>
+                <li>Axios</li>
+                <li>Node</li>
+                <li>Bcrypt</li>
+                <li>jwt</li>
+                <li>PostgreSQL</li>
+                <li>sequilize orm</li>
+              </ul>
+              <br />
+              <a
+                href="https://github.com/colinmyers37/CJJF-ClassTracker"
+                rel="noreferrer"
+                target="_blank"
+              >
+                GitHub
+              </a>{' '}
+              {'  '}|{' '}
+            </ProjectParagraphContainer>
+          </ProjectCards>
         </ProjectWrapper>
       </ProjectsContainerStyled>
     </>
